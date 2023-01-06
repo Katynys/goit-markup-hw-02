@@ -1,0 +1,199 @@
+
+:root {
+    --bg-color: #FFFFFF;
+    --text-color: #434455;
+    --title-color:#2E2F42;
+    --link-color: #434455;
+    --btn-color: #4D5AE5;
+    --btn-bg-color: #F4F4FD;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background: var(--bg-color);
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+/*------------------ HEADER -------------------*/
+
+
+.header-navigation {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+.header-logo .accent {
+    color: #4D5AE5;
+}
+.header-email {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--link-color);
+}
+.header-phone {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--link-color);
+
+/*------------------ HERO -------------------*/
+
+}
+.hero {
+    background: #2E2F42;
+    color: #FFFFFF;
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+.hero-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    cursor: pointer;
+}
+
+/*------------------ SECTION 1 -------------------*/
+
+.features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color)
+}
+.features-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+/*------------------ SECTION 2 -------------------*/
+
+.function-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color)
+}
+
+
+/*------------------ SECTION 3 -------------------*/
+
+.team {
+    background: #F4F4FD;
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color)
+}
+.team-card-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color)
+}
+.team-card-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color)
+}
+
+/*------------------ FOOTER -------------------*/
+
+
+.footer {
+    background: #2E2F42;
+    color: #F4F4FD;
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+
+
+/*------------------ PORTFOLIO -------------------*/
+
+
+/*------------------ BUTTONS -------------------*/
+
+.btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--btn-color);
+    background: var(--btn-bg-color);
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #FFFFFF;
+    background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+
+/*------------------ PRODUCTS -------------------*/
+
+
+.product-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color)
+}
+.product-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color)
+}
